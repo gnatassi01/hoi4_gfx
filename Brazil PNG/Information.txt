@@ -1,0 +1,14 @@
+DESTROYERS:
+Sergipe Class = Earlier ww1
+Amazonas Class = Late ww1
+
+Maranhão Class = Destroyers 1 (ww2)
+
+scout cruiser (1908) = Andrada Class
+Protected Cruiser (1896) = Almirante Barroso Class
+Armored Cruiser 1896 = Amazonas Class
+Dreadnought (1908) = Sâo Paulo Class
+Advanced Dreadnought = Minas Gerais Dreadnought Class (add minas gerais class desc here)
+battleship I (1922) = Minas Gerais Battleship Class (desc =  new fire control system was installed, 305mm bulkheads were installed in the turrets between guns, better AA and better elevation of turrents)
+Batteship II (1936) = Modern Minas Gerais Class ( desc =  boilers were replaced by 6 Thornycroft oil-firing ones, two funnels were replaced by one, machinery power was increased (30000hp, 22kts, 2200t of oil, 5350(10)nm). Maximal elevation angle of all turrets was increased to 18°)
+Battlecruiser I = Rio de Janeiro Class (desc = with oil engines this is Fast has great firepower and low armor)
