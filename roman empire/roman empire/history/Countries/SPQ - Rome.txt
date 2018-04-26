@@ -1,0 +1,480 @@
+capital = 846
+
+set_research_slots = 7
+
+add_ideas = {
+
+	#laws
+		limited_exports
+		low_economic_mobilisation
+		cons_three
+
+		press_state
+		mob_limited
+
+		security_major_restrictions
+
+		tax_average
+		edu_low
+
+		labor_none
+		foreign_warmonger
+		
+		foreign_volunteers
+		tariffs_high
+
+		fdi_regulated
+		officer_train_none
+
+		train_low
+		major_industries
+		age_19
+		unity_united_nation
+}
+
+set_country_flag = mob_limited
+set_country_flag = foreign_warmonger
+set_country_flag = tax_average
+set_country_flag = edu_low
+set_country_flag = press_state
+set_country_flag = cons_three
+set_country_flag = tariffs_high
+set_country_flag = train_low
+set_country_flag = major_industries
+set_country_flag = age_19
+set_country_flag = limited_exports
+set_country_flag = low_economic_mobilisation
+set_country_flag = fdi_regulated
+set_country_flag = labor_allowed
+
+# Starting tech
+set_technology = {
+
+}
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	add_ideas = {
+	}
+	
+	oob = "ITA_1939"
+	
+	set_technology = {
+		
+	}
+	
+	set_national_unity = 0.75
+}
+
+
+set_convoys = 1000
+
+set_national_unity = 0.6
+
+set_politics = {
+
+	parties = {
+		conservatism = { 
+			popularity = 10
+		}
+		liberalism = { 
+			popularity = 5
+		}
+		socialism = { 
+			popularity = 10
+		}
+		
+		fascism = {
+			popularity = 10
+		}
+		
+		communism = {
+			popularity = 5
+		}
+		monarchism = { 
+		   popularity = 60 }
+	}
+	
+	ruling_party = monarchism
+	last_election = "1934.3.26"
+	election_frequency = 60
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Julius Caesar"
+	picture = 
+    desc =	
+	expire = "1965.1.1"
+	ideology = fascism_ideology
+	traits = {
+		
+	}
+}	
+create_country_leader = {
+	name = "Gaius Marius"
+	picture = 
+	desc =
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+		
+	}
+}	
+create_country_leader = {
+	name = "Tiberius Gracchus"
+	picture = 
+	desc =
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		
+	}
+	}
+create_country_leader = {
+	name = "Augustus Caesar"
+	picture = 
+	desc =
+	expire = "1965.1.1"
+	ideology = imperial
+	traits = {
+		
+	}
+	}
+create_country_leader = {
+	name = "Cato the Younger"
+	picture = 
+	desc =
+	expire = "1965.1.1"
+	ideology = classical_liberalism
+	traits = {
+		
+	}
+	}
+create_country_leader = {
+	name = "Constantine the Great"
+	picture = 
+	desc =
+	expire = "1965.1.1"
+	ideology = social_democracy
+	traits = {
+		
+	}
+	}
+create_country_leader = {
+	name = "Marcus Aurelius"
+	picture = 
+	desc =
+	expire = "1965.1.1"
+	ideology = centrism
+	traits = {
+		
+	}	
+}
+## Generals ##
+
+
+create_corps_commander = {
+	name = "Manius Acilius Glabrio"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Aemilius Barbula"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Titus Aebutius Elva"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Aegidius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Lucius Aemilius Barbula"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Marcus Aemilius Lepidus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Lucius Aemilius Paulus Macedonicus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Marcus Aemilius Scaurus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Gaius Antonius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Lucius Antonius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Manius Aquillius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Lucius Artorius Castus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Gaius Asinius Pollio"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Publius Attius Varus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Lucius Cornelius Balbus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Barbatio"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Publius Ventidius Bassus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Decimus Junius Brutus Albinus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Biggus Dickus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Quintus Caecilius Metellus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Scipio Aemilianus Africanus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Publius Cornelius Scipio"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Scipio Asiaticus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Gaius Laelius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Marcus Aemilius Lepidus"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Tiberius Nero"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Gaius Octavius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Maximus Corvinus Messalla"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Flavius Valila Theodosius"
+	picture =
+	traits =
+	skill = 1
+}
+create_corps_commander = {
+	name = "Marcus Vipsanius Agrippa"
+	picture =
+	traits =
+	skill = 1
+}
+############# navy leaders ##################
+create_navy_leader = {
+	name = "Lucius Aemilius Regillus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Marcius Agrippa"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Anicetus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Claudius Apollinaris"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Lucius Arruntius the Elder"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Marcus Atilius Regulus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Lucilius Bassus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Bonosus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Cornelius Fuscus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Gaius Duilius"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Gaius Livius Salinator"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Marcus Lurius"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Gaius Lutatius Catulus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Menas"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Papias"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Pliny the Elder"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Lucius Quinctius Flamininus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Gnaeus Servilius Geminus"
+	picture =
+	traits =
+	skill = 1
+}
+create_navy_leader = {
+	name = "Marcus Vipsanius Agrippa"
+	picture =
+	traits =
+	skill = 1
+}
+
+}
+### Ship Variants ###
+#################################################################################################################
+#BICE variants - remember to delete all vanilla variants
+#################################################################################################################
+
